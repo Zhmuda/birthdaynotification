@@ -11,7 +11,7 @@ bot = Bot(token=API_TOKEN)
 updater = Updater(token=API_TOKEN, use_context=True)
 
 def start(update: Update, context: CallbackContext):
-    update.message.reply_text('Welcome! You will receive birthday notifications.')
+    update.message.reply_text('Добро пожаловать! Вы будете получать уведомления о днях рождения.')
 
 def notify_subscribers(context: CallbackContext):
     db = database.SessionLocal()
