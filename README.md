@@ -48,7 +48,7 @@
 - Отправьте POST запрос на `/employees` с JSON телом:
     ```json
     {
-        "name": "John Doe",
+        "name": "John Brown",
         "birthday": "1990-07-25"
     }
     ```
